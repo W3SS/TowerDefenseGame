@@ -1,4 +1,3 @@
-
 #include "tower.h"
 #include <QPixmap>
 #include <QVector>

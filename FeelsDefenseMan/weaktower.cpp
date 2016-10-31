@@ -65,8 +65,6 @@ void weaktower::attackTarget(){
     game->scene->addItem(bull2);
     }
 
-
 void weaktower::tracking(){
    tower::tracking();
 }
-

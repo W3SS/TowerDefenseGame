@@ -18,8 +18,8 @@ savage::savage(QGraphicsItem *parent){
          << QPointF(30,30)
          << QPointF(0,30);
 
-    (this)->setPolygon(poly);
-    (this)->setPen(QPen(Qt::darkCyan));
+   (this)->setPolygon(poly);
+   (this)->setPen(QPen(Qt::darkCyan));
    (this)->setBrush(QBrush(Qt::darkCyan));
 
     //HEALTH BAR!!!
@@ -44,4 +44,3 @@ void savage::move_forward()
     enemy::move_forward();
 
 }
-

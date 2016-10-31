@@ -8,7 +8,6 @@
 
 
 class tower:public QObject, public QGraphicsPixmapItem{
-
     Q_OBJECT
 public:
     tower(QGraphicsItem *parent=0);
@@ -20,6 +19,5 @@ public:
 public slots:
     void tracking();
     void tracking1();
-
 };
 #endif // TOWER_H

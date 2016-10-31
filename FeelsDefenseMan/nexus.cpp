@@ -10,8 +10,6 @@
 #include "savage.h"
 extern Game * game; //global variable
 
-
-
 nexus::nexus(QGraphicsItem *parent)
 {
     //setting graphics
@@ -79,8 +77,5 @@ void nexus::tracking1()
             qDebug()<<"hey"; //ISSUE HERE NOT SURE WHY THIS ISN'T WORKING
 
         }
-
     }
-
-
 }

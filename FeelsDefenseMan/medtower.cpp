@@ -54,8 +54,8 @@ medtower::medtower(QGraphicsItem *parent)
 
 void medtower::attackTarget(){
     bullet * bull2 = new bullet();
-     bullet * bull3 = new bullet();
-      bullet * bull4 = new bullet();
+    bullet * bull3 = new bullet();
+    bullet * bull4 = new bullet();
 
     bull2->setPixmap(QPixmap(":/images/fire.png"));
     bull2->setPos(x()+30, y()+35); //centering the bullet
@@ -80,8 +80,6 @@ void medtower::attackTarget(){
     game->scene->addItem(bull4);
 }
 
-
 void medtower::tracking(){
    tower::tracking();
 }
-
